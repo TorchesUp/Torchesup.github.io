@@ -1,0 +1,158 @@
+* {
+    color: #002142;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.8fr 1.1fr;
+  grid-template-rows: 20% 70% 10%;
+    grid-template-areas: 
+    "header header header"
+    "left main right"
+    "footer footer footer";
+  padding: 5px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+	grid-area: main;
+}
+
+.left {
+	grid-area: left;
+}
+
+.right {
+	grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+ }
+
+.nameForm, .colorForm {
+     font-size: 1.2em;
+}
+
+
+input[type="button"], button, .scoreDisplay {
+    background-color: #ffe135; /* Yellow */
+    border: none;
+    margin: 0px 0px 0px 5px;
+    padding: 6px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+
+button {
+	display: block;
+	margin: 10px 10px 10px 10px;
+}
+
+#scoreText {
+  font-size: 3em;
+}
+
+#level {
+  font-style: italic;
+  color: white;
+}
+
+input[type="text"] {
+	  display: inline-block;
+		margin-left: 5px;
+}
+
+.cat {
+  height: 50vh;
+  padding: 20px;
+  display: block; 
+	margin: 0 auto;
+
+}
+
+.feelDisplay {
+  position: relative;
+	display: block;
+  background-image: url("balloon.jpg"); 
+  background-size: 470px 200px;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 200px;
+}
+
+#feelText {
+	position: absolute;
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 20%;
+	left: 5%;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.nameDisplay {		
+  font-size: 1.2em;
+}
+
+.nameDisplay2 {
+  padding-bottom: 15px;
+  color: #00172e;
+  font-size: 5em;
+  display: block; 
+	margin: 0 auto;
+	width: 35%;
+  border-radius: 4px;
+}
+
+.barDescription {
+    display: block;
+    width: 75%;
+  	margin-left: auto;
+  	margin-right: auto;
+    height: 30px;
+    text-align: left; 
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+#foodBar, #loveBar, #petBar {
+    width: 80%;
+    margin-top: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+    height: 30px;
+    background-color: grey;
+    border-radius: 3px;
+}
+
+#foodProgress {
+    width: 50%;
+    height: 30px;
+    background-color: #3eb300; /*green*/
+    border-radius: 3px;
+}
+
+#petProgress {
+    width: 30%;
+    height: 30px;
+    background-color: orange;
+    border-radius: 3px;
+}
+
+#loveProgress {
+    width: 30%;
+    height: 30px;
+    background-color: orange;
+    border-radius: 3px;
+}
