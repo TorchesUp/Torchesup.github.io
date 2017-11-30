@@ -1,1 +1,78 @@
 
+<!DOCTYPE html>
+
+<html lan="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Cute Cat </title>
+	<link href="Cat.css" type="text/css" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<div class="grid-container"> 
+	<body>
+				<div class="header"> 
+						<div class="nameForm">
+							Name your cat:         
+							<input type="text" name="name" id="name" />
+							<input type="button" value="Done" OnClick="submittedName()" />
+						</div>
+						<div class="colorForm" style="visibility: hidden;">
+							Choose your favorite color:   
+							<input type="color" id="color">
+							<input type="button" value="Done" OnClick="submittedColor()" />
+						</div>
+				</div>
+				<br>
+			
+				<div class="main">
+					
+						<img class="cat" src="http://wolkbreuk.weebly.com/uploads/8/6/3/8/86386494/cat_orig.jpg" height="300px" alt="cat" onclick="sayMeow();" />
+				</div>
+			
+			<div class="right">
+					<div class="feelDisplay">
+						<span id="feelText">
+						Thanks for adopting me! Meow! </span>
+					</div><br><br><br>
+					<div class="scoreDisplay"> Total score:
+					  <br><br>
+						<span id="scoreText"> 0 </span>
+						<br><br>
+						<span id="level"> Novice </span>
+					</div>
+  		</div>
+		
+			<div class="left">
+					<div class="barDescription"> <button onclick="feed('food')">Give Food</button> 
+					</div>
+					<div id="foodBar"> <div id="foodProgress"></div>
+					</div>
+
+					<div class="barDescription"> <button onclick="feed('pet')">Pet</button> 
+					</div>
+					<div id="petBar"> <div id="petProgress"></div>
+					</div>
+					
+					<div class="barDescription"> <button onclick="feed('love')">Give Love</button> 
+					</div>
+					<div id="loveBar"> <div id="loveProgress"></div>
+					</div>
+					<br> <br> <br>
+					<img id="ball" src="ball.jpg" height="80px" alt="ball" align="right" onclick="playBall();" />
+					
+			</div>
+
+			<div class="footer">
+					<div class="nameDisplay">
+					<br><br>Your cat has just arrived. It doesn't have a name yet.
+			 		</div>
+			</div>
+		
+	 <script src="Cat.js" type="text/javascript" ></script>	 
+	</body>
+</div> 
+
+  
+ </html>
