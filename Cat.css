@@ -49,8 +49,6 @@ input[type="button"], button, .scoreDisplay {
     display: inline-block;
     border-radius: 3px;
     font-size: 1em;
-    min-width: 48px; //learn at responsive design course
-    min-height: 48px; //dito
 }
 
 
@@ -85,16 +83,18 @@ input[type="text"] {
   position: relative;
 	display: block;
   background-image: url("balloon.jpg"); 
-  background-size: 470px 200px;
+
+  background-size: 10vh 14vh; /*470px 200px; */
   background-repeat: no-repeat;
   background-position: center; 
-  height: 200px;
+  height: 20vh; /* 200px */
+
 }
 
 #feelText {
 	position: absolute;
 	display: block;
-	width: 400px;
+	width: 20vh; /*400px*/
 	margin-left: auto;
 	margin-right: auto;
 	top: 20%;
