@@ -49,6 +49,8 @@ input[type="button"], button, .scoreDisplay {
     display: inline-block;
     border-radius: 3px;
     font-size: 1em;
+    min-width: 48px; //learn at responsive design course
+    min-height: 48px; //dito
 }
 
 
