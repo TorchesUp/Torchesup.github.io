@@ -83,7 +83,7 @@ input[type="text"] {
   position: relative;
 	display: block;
   background-image: url("balloon.jpg"); 
-  background-size: 30vh 14vh; /*470px 200px; */
+  background-size: 10vh 14vh; /*470px 200px; */
   background-repeat: no-repeat;
   background-position: center; 
   height: 200px;
