@@ -41,7 +41,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: lime;
+  background-color: purple;
  }
 
 /* for mobile phone */
@@ -49,7 +49,7 @@ body {
 {
   .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 10% 40% 40% 10%;
     grid-template-areas: 
     "header header"
