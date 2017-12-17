@@ -83,18 +83,16 @@ input[type="text"] {
   position: relative;
 	display: block;
   background-image: url("balloon.jpg"); 
-
-  background-size: 10vh 14vh; /*470px 200px; */
+  background-size: 470px 200px;
   background-repeat: no-repeat;
   background-position: center; 
-  height: 20vh; /* 200px */
-
+  height: 200px;
 }
 
 #feelText {
 	position: absolute;
 	display: block;
-	width: 20vh; /*400px*/
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	top: 20%;
