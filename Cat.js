@@ -23,10 +23,11 @@ function getRandomNumber()
 	randomNumber = Math.floor(Math.random()*4+1);
 }
 
+/* temporarily disabled to work on layout without getting disturbed. this can be turned on again afterwards
 getHungry("food");
 getHungry("pet");
 getHungry("love");
-
+*/
 
 
 //this function can be used to find the width of a certain type and add/subtract to it
