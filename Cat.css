@@ -41,7 +41,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: grey;
+  background-color: orange;
  }
 
 /* for mobile phone */
