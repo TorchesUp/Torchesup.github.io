@@ -4,6 +4,10 @@
     text-align: center; 
 }
 
+body {
+  background-color: blue; 	
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1.1fr 0.8fr 1.1fr;
