@@ -21,31 +21,32 @@ body {
 
 .header {
   grid-area: header;
+  background-color: grey;
 }
 
 .main {
 	grid-area: main;
+	background-color: yellow;
 }
 
 .left {
 	grid-area: left;
+	background-color: orange;
 }
 
 .right {
 	grid-area: right;
+	background-color: lightblue;
 }
 
 .footer {
   grid-area: footer;
+  background-color: lime;
  }
 
 /* for mobile phone */
 @media only screen and (max-width: 600px) 
 {
-   body {
-        background-color: green;
-    }
-  
   .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
